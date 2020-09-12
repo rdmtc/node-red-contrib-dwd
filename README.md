@@ -257,7 +257,9 @@ In der folgenden Fig. 11 ist dargestellt, wie beispielsweise der Ort Rheda-Wiede
 **Fig. 11:** Erweiterung der Liste der Regionen/Städte (Beispiel Rheda-Wiedenbrück)
 
 
-
+## Credits
+- **Sebastian Raff**: Programming, maintaining, releasing
+- **StephanStS**: Documentation, node help
 
 
 ## License
