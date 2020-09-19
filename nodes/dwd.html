@@ -55,7 +55,7 @@
                     '105374000 Oberbergischer Kreis (GM)',
                     '105754000 Kreis Gütersloh (GT)',
                     '105915000 Stadt Hamm (HAM)',
-                    '105914000 Stadt Hagen (HA)',
+                    '105914000 Stadt Hagen (HAbeliebige)',
                     '105916000 Stadt Herne (HER)',
                     '105758000 Kreis Herford (HF)',
                     '105958000 Hochsauerlandkreis (HSK)',
@@ -703,6 +703,62 @@
 </script>
 
 <script type="text/x-red" data-help-name="dwd">
-    <p>
-    </p>
+  <p>
+    Node-RED node to retreive weather warnings from the <b>Deutscher Wetterdienst (DWD)</b>.
+  </p>
+
+  <h3>Inputs</h3>
+      <dl class="message-properties">
+          <dt>payload
+              <span class="property-type">any</span>
+          </dt>
+          <dd> triggers the node execution. </dd>
+      </dl>
+
+   <h3>Outputs</h3>
+      <dl class="message-properties">
+          <dt>payload <span class="property-type">number</span></dt>
+          <dd>maximum warning level of all warnings.</dd>
+      </dl>
+      <dl class="message-properties">
+          <dt>count <span class="property-type">number</span></dt>
+          <dd>number of warnings (in array <em>warnings</em>).</dd>
+      </dl>
+      <dl class="message-properties">
+          <dt>events <span class="property-type">string</span></dt>
+          <dd>comma separated list of all active warning categories.</dd>
+      </dl>
+      <dl class="message-properties">
+          <dt>warnings <span class="property-type">array of string</span></dt>
+          <dd>array with detailed warning information.</dd>
+      </dl>
+      <dl class="message-properties">
+          <dt>html <span class="property-type">string</span></dt>
+          <dd>html output (e.g. usable in the <em>dashboard template</em>).</dd>
+      </dl>
+
+
+  <h3>Details</h3>
+      <p>
+        See library description there
+        <ul>
+          <li> <a href="https://flows.nodered.org/node/node-red-contrib-dwd"><em><b>node-red-contrib-dwd</b></em> on flows.nodered.org</a> </li>
+          <li> <a href="https://github.com/rdmtc/node-red-contrib-dwd"><em><b>node-red-contrib-dwd</b></em> on GitHub.com </a> </li>
+          <li> <a href="https://www.npmjs.com/package/node-red-contrib-dwd"><em><b>node-red-contrib-dwd</b></em> on npmjs.com</a> </li>
+        </ul>
+      </p>
+
+
+
+
+  <h3>References</h3>
+      <ul>
+        <li> <a href="https://www.dwd.de/DE/wetter/warnungen_gemeinden/warnWetter_node.html">Warning map of the DWD</a> </li>
+        <li> <a href="https://www.dwd.de/DE/wetter/warnungen_aktuell/kriterien/warnkriterien.html">Warning criteria </a> </li>
+        <li> <a href="https://www.dwd.de/DE/wetter/warnungen_aktuell/kriterien/uv_hitze_warnungen.html">UV and heat warnings </a> </li>
+        <li> <a href="https://www.dwd.de/DE/wetter/warnungen_aktuell/kriterien/seewarnungen.html">Seaside and lake warnings </a> </li>
+        <li> <a href="https://www.dwd.de/DE/wetter/warnungen_aktuell/kriterien/warnstufen.html">Warning levels and their colors </a> </li>
+        <li> <a href="https://www.dwd.de/DE/leistungen/opendata/help/warnungen/cap_warncellids_csv.csv">List of regions/cities (incl. ID) </a> </li>
+      </ul>
+
 </script>
