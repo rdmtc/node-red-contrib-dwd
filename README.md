@@ -226,7 +226,7 @@ Der folgende Flow zeigt die Verwendung des Wetterwarnungs-Dashboard-Templates:
 
 ## Informationen zu den DWD-Wetterdaten
 
-[Warnkarte des DWD](https://www.dwd.de/DE/wetter/https://www.dwd.de/DWD/warnungen/warnapp_gemeinden/json/warnungen_gemeinde_map_de_gewitter.pngwarnungen_landkreise/warnWetter_node.html)
+[Warnkarte des DWD](https://www.dwd.de/DE/wetter/warnungen_landkreise/warnWetter_node.html)
 
 #### Warnkriterien
 https://www.dwd.de/DE/wetter/warnungen_aktuell/kriterien/warnkriterien.html  
