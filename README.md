@@ -39,7 +39,7 @@ Sie können folgende Wetterwarnungen beinhalten:
 
 <a name="installation_in_node-red"></a>
 ### In Node-RED (bevorzugt)
-* Über *Manage palette* -> Nach "node-red-chttps://www.dwd.de/DWD/warnungen/warnapp_gemeinden/json/warnungen_gemeinde_map_de_gewitter.pngontrib-dwd" suchen und installieren
+* Über *Manage palette* -> Nach "node-red-contrib-dwd" suchen und installieren
 
 <a name="installation_in_a_shell"></a>
 ### Über eine Shell
